@@ -33,12 +33,12 @@ class AppTheme {
       ),
       focusedBorder: OutlineInputBorder(
          borderSide: BorderSide(color: primary),
-        borderRadius: BorderRadius.only(bottomRight: Radius.circular(32), topLeft: Radius.circular(32))
+        borderRadius: BorderRadius.only(bottomLeft: Radius.circular(32), topRight: Radius.circular(32))
       ),
       border: OutlineInputBorder(
          borderSide: BorderSide(color: primary),
-        borderRadius: BorderRadius.only(topRight: Radius.circular(32), bottomLeft: Radius.circular(32))
-      )
+        borderRadius: BorderRadius.only(bottomLeft: Radius.circular(32), topRight: Radius.circular(32))
+        )
     )
   );
 }

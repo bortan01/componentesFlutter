@@ -9,7 +9,9 @@ class AlertScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        centerTitle: true,
+        title: const Text("Alertas"),),
       body: Center(
         child: ElevatedButton(
           child: const Padding(
@@ -22,7 +24,7 @@ class AlertScreen extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-          child: const Icon(Icons.close),
+          child: const Icon(Icons.input_outlined, color: Colors.white,),
           onPressed: () {
             Navigator.pop(context);
           }),

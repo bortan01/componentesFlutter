@@ -19,7 +19,8 @@ class _AnimatedScreenState extends State<AnimatedScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("animated container"),
+        title: const Text("Animated Container"),
+        centerTitle: true,
       ),
       body: Center(
         child: AnimatedContainer(
@@ -32,7 +33,7 @@ class _AnimatedScreenState extends State<AnimatedScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _changeShape,
-        child: const Icon(Icons.play_arrow),
+        child: const Icon(Icons.play_arrow, color: Colors.white,),
       ),
     );
   }

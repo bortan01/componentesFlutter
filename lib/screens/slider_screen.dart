@@ -9,12 +9,16 @@ class SliderScreen extends StatefulWidget {
 }
 
 class _SliderScreenState extends State<SliderScreen> {
-  double _sliderValue = 100;
+  double _sliderValue = 200;
   bool _isSliderEnable = true;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      
+      appBar: AppBar(
+        title: const Text("Slider and Check"),
+        centerTitle: true,
+      ),
       body: Center(
         child: Column(
           children: [
@@ -29,45 +33,31 @@ class _SliderScreenState extends State<SliderScreen> {
                       })
                   : null,
             ),
-            Checkbox(
-              
-              activeColor: AppTheme.primary,
-              value: _isSliderEnable,
-              onChanged: (value) => setState(() {
-                _isSliderEnable = value ?? true;
-              }),
-            ),
+         
               CheckboxListTile(
               activeColor: AppTheme.primary,
-              title: const Text("habilidat"),
+              title: const Text("Habilitar"),
               value: _isSliderEnable,
               onChanged: (value) => setState(() {
                 _isSliderEnable = value ?? true;
               }),
             ),
-              Switch.adaptive(
-              activeColor: AppTheme.primary,
-        
-              value: _isSliderEnable,
-              onChanged: (value) => setState(() {
-                _isSliderEnable = value ;
-              }),
-            ),
+         
               SwitchListTile.adaptive(
               activeColor: AppTheme.primary,
-              title: const Text("habilidat"),
+              title: const Text("Habilitar"),
               value: _isSliderEnable,
               onChanged: (value) => setState(() {
                 _isSliderEnable = value ;
               }),
             ),
-            const AboutListTile(),
             SingleChildScrollView(
-              child: Image(
-                fit: BoxFit.contain,
+              child: FadeInImage(
                 width: _sliderValue,
+                placeholder: const AssetImage('assets/gif/jar-loading.gif'),
+                fit: BoxFit.contain,
                 image: const NetworkImage(
-                    'https://areajugones.sport.es/wp-content/uploads/2020/08/to-love-ru-2.jpg'),
+                    'https://sm.ign.com/t/ign_es/news/t/the-batman/the-batman-sequel-announced-with-robert-pattinson-at-cinemac_jspq.1280.jpg'),
               ),
             ),
           ],
