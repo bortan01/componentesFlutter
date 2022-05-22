@@ -68,7 +68,9 @@ class _ListViewBuilderScreenState extends State<ListViewBuilderScreen> {
                       height: 300,
                       placeholder: const AssetImage('assets/gif/jar-loading.gif'),
                       image: NetworkImage(
-                          'https://picsum.photos/500/300?image=${imagesIds[index]}'));
+                          'https://picsum.photos/500/300?image=${imagesIds[index]}',headers: {}
+                        
+                          ));
                 },
               ),
             ),
