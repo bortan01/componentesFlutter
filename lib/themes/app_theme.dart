@@ -8,37 +8,41 @@ class AppTheme {
       appBarTheme: const AppBarTheme(color: primary, elevation: 0));
 
   static final ThemeData darkTheme = ThemeData.dark().copyWith(
-    primaryColor: primary,
-    floatingActionButtonTheme: const FloatingActionButtonThemeData(
-      backgroundColor: primary,
-    ),
-    textButtonTheme: TextButtonThemeData(
-      style: TextButton.styleFrom(primary: AppTheme.primary),
-    ),
-    appBarTheme: const AppBarTheme(
-      color: primary,
-      elevation: 0,
-    ),
-    // Elevate Buttons
-    elevatedButtonTheme: ElevatedButtonThemeData(
-      style: ElevatedButton.styleFrom(
-          primary: primary, shape: const StadiumBorder(), elevation: 0),
-    ),
-    // InputDecorationTheme
-    inputDecorationTheme: const InputDecorationTheme(
-      floatingLabelStyle: TextStyle(color: primary),
-      enabledBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: primary),
-        borderRadius: BorderRadius.only(bottomLeft: Radius.circular(32), topRight: Radius.circular(32))
+      primaryColor: primary,
+      floatingActionButtonTheme: const FloatingActionButtonThemeData(
+        backgroundColor: primary,
       ),
-      focusedBorder: OutlineInputBorder(
-         borderSide: BorderSide(color: primary),
-        borderRadius: BorderRadius.only(bottomLeft: Radius.circular(32), topRight: Radius.circular(32))
+      textButtonTheme: TextButtonThemeData(
+        style: TextButton.styleFrom(
+          backgroundColor: primary,
+        ),
       ),
-      border: OutlineInputBorder(
-         borderSide: BorderSide(color: primary),
-        borderRadius: BorderRadius.only(bottomLeft: Radius.circular(32), topRight: Radius.circular(32))
-        )
-    )
-  );
+      appBarTheme: const AppBarTheme(
+        color: primary,
+        elevation: 0,
+      ),
+      // Elevate Buttons
+      elevatedButtonTheme: ElevatedButtonThemeData(
+        style: ElevatedButton.styleFrom(
+          backgroundColor: primary,
+        ),
+      ),
+      // InputDecorationTheme
+      inputDecorationTheme: const InputDecorationTheme(
+          floatingLabelStyle: TextStyle(color: primary),
+          enabledBorder: OutlineInputBorder(
+              borderSide: BorderSide(color: primary),
+              borderRadius: BorderRadius.only(
+                  bottomLeft: Radius.circular(32),
+                  topRight: Radius.circular(32))),
+          focusedBorder: OutlineInputBorder(
+              borderSide: BorderSide(color: primary),
+              borderRadius: BorderRadius.only(
+                  bottomLeft: Radius.circular(32),
+                  topRight: Radius.circular(32))),
+          border: OutlineInputBorder(
+              borderSide: BorderSide(color: primary),
+              borderRadius: BorderRadius.only(
+                  bottomLeft: Radius.circular(32),
+                  topRight: Radius.circular(32)))));
 }
