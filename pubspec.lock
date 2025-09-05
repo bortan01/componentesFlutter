@@ -62,14 +62,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.3"
-  app_settings:
-    dependency: "direct main"
-    description:
-      name: app_settings
-      sha256: "3e46c561441e5820d3a25339bf8b51b9e45a5f686873851a20c257a530917795"
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.1.1"
   app_tracking_transparency:
     dependency: "direct main"
     description:
@@ -422,13 +414,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.9"
-  dsbsdk:
-    dependency: "direct main"
-    description:
-      path: "../dsbsdk"
-      relative: true
-    source: path
-    version: "1.0.0"
   equatable:
     dependency: "direct main"
     description:
@@ -786,54 +771,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.0-beta.2"
-  flutter_keyboard_visibility:
-    dependency: "direct main"
-    description:
-      name: flutter_keyboard_visibility
-      sha256: "98664be7be0e3ffca00de50f7f6a287ab62c763fc8c762e0a21584584a3ff4f8"
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.0.0"
-  flutter_keyboard_visibility_linux:
-    dependency: transitive
-    description:
-      name: flutter_keyboard_visibility_linux
-      sha256: "6fba7cd9bb033b6ddd8c2beb4c99ad02d728f1e6e6d9b9446667398b2ac39f08"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.0"
-  flutter_keyboard_visibility_macos:
-    dependency: transitive
-    description:
-      name: flutter_keyboard_visibility_macos
-      sha256: c5c49b16fff453dfdafdc16f26bdd8fb8d55812a1d50b0ce25fc8d9f2e53d086
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.0"
-  flutter_keyboard_visibility_platform_interface:
-    dependency: transitive
-    description:
-      name: flutter_keyboard_visibility_platform_interface
-      sha256: e43a89845873f7be10cb3884345ceb9aebf00a659f479d1c8f4293fcb37022a4
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.0"
-  flutter_keyboard_visibility_web:
-    dependency: transitive
-    description:
-      name: flutter_keyboard_visibility_web
-      sha256: d3771a2e752880c79203f8d80658401d0c998e4183edca05a149f5098ce6e3d1
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.0"
-  flutter_keyboard_visibility_windows:
-    dependency: transitive
-    description:
-      name: flutter_keyboard_visibility_windows
-      sha256: fc4b0f0b6be9b93ae527f3d527fb56ee2d918cd88bbca438c478af7bcfd0ef73
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.0"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -846,26 +783,34 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_local_notifications
-      sha256: "674173fd3c9eda9d4c8528da2ce0ea69f161577495a9cc835a2a4ecd7eadeb35"
+      sha256: a9966c850de5e445331b854fa42df96a8020066d67f125a5964cbc6556643f68
       url: "https://pub.dev"
     source: hosted
-    version: "17.2.4"
+    version: "19.4.1"
   flutter_local_notifications_linux:
     dependency: transitive
     description:
       name: flutter_local_notifications_linux
-      sha256: c49bd06165cad9beeb79090b18cd1eb0296f4bf4b23b84426e37dd7c027fc3af
+      sha256: e3c277b2daab8e36ac5a6820536668d07e83851aeeb79c446e525a70710770a5
       url: "https://pub.dev"
     source: hosted
-    version: "4.0.1"
+    version: "6.0.0"
   flutter_local_notifications_platform_interface:
     dependency: transitive
     description:
       name: flutter_local_notifications_platform_interface
-      sha256: "85f8d07fe708c1bdcf45037f2c0109753b26ae077e9d9e899d55971711a4ea66"
+      sha256: "277d25d960c15674ce78ca97f57d0bae2ee401c844b6ac80fcd972a9c99d09fe"
       url: "https://pub.dev"
     source: hosted
-    version: "7.2.0"
+    version: "9.1.0"
+  flutter_local_notifications_windows:
+    dependency: transitive
+    description:
+      name: flutter_local_notifications_windows
+      sha256: ed46d7ae4ec9d19e4c8fa2badac5fe27ba87a3fe387343ce726f927af074ec98
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.2"
   flutter_localization:
     dependency: "direct main"
     description:
@@ -1082,14 +1027,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.2"
-  heif_converter_plus:
-    dependency: "direct main"
-    description:
-      name: heif_converter_plus
-      sha256: cdddf59b0da8520d1561dfb50139ba3c6dd9c93c11db1dfa1b1102649fba824f
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.2"
   hive:
     dependency: transitive
     description:
@@ -1146,14 +1083,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.1.2"
-  huawei_hmsavailability:
-    dependency: "direct main"
-    description:
-      name: huawei_hmsavailability
-      sha256: ec9d83a50a60b040195daef92babd04cafd894f9271e9e6e65a841f7b6460b21
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.12.0+300"
   image:
     dependency: "direct main"
     description:
@@ -1266,14 +1195,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.5"
-  jailbreak_root_detection:
-    dependency: "direct main"
-    description:
-      name: jailbreak_root_detection
-      sha256: c611229940a09785bd686364e92a40b07724926d2496c931527805101eb3da86
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.6"
   js:
     dependency: transitive
     description:
@@ -1490,14 +1411,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.5.0"
-  no_screenshot:
-    dependency: "direct main"
-    description:
-      name: no_screenshot
-      sha256: ec3d86d7ee89a09c3a3939c1003012536ba4b3fcb4f8cbd23d87ada595c99258
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.3.1"
   octo_image:
     dependency: transitive
     description:
@@ -1770,15 +1683,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.28.0"
-  screen_protection:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: master
-      resolved-ref: "8ac94ff41047f92dfd1f86aab338e5a2bc97b043"
-      url: "https://github.com/skanderhamdi/screen_protection.git"
-    source: git
-    version: "0.0.1"
   screenshot:
     dependency: "direct main"
     description:
@@ -2036,10 +1940,10 @@ packages:
     dependency: transitive
     description:
       name: timezone
-      sha256: "2236ec079a174ce07434e89fcd3fcda430025eb7692244139a9cf54fdcf1fc7d"
+      sha256: dd14a3b83cfd7cb19e7888f1cbc20f258b8d71b54c06f79ac585f14093a287d1
       url: "https://pub.dev"
     source: hosted
-    version: "0.9.4"
+    version: "0.10.1"
   timing:
     dependency: transitive
     description:
