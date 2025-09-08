@@ -132,11 +132,11 @@ dependencies:
   webview_flutter_platform_interface: ^2.10.0
   widgets_to_image: ^1.0.0
   #! PROBLEMAS
-  # no_screenshot: ^0.3.1
-  # heif_converter_plus: ^1.0.2
+  no_screenshot: ^0.3.1
+  heif_converter_plus: ^1.0.2
   # jailbreak_root_detection: ^1.1.6
-  # flutter_keyboard_visibility: ^6.0.0
-  # app_settings: ^6.1.1
+  flutter_keyboard_visibility: ^6.0.0
+  app_settings: ^6.1.1
 
 dev_dependencies:
   # The "flutter_lints" package below contains a set of recommended lints to
